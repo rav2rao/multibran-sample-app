@@ -20,3 +20,9 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+// Adding the java compatibility by me-rav
+java {
+    sourceCompatibility = JavaVersion.VERSION_17 // or VERSION_11
+    targetCompatibility = JavaVersion.VERSION_17
+}
